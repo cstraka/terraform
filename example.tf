@@ -30,7 +30,7 @@ resource "aws_security_group" "instance" {
 resource "aws_security_group" "alb" {
 	name = "terraform-example-alb"
 	
-	#allow HTTP inbound
+	#allow HTTP inbound test
 	ingress {
 		from_port = 80
 		to_port = 80
